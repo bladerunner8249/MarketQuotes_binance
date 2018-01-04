@@ -2,7 +2,7 @@
 """
 Created on Mon Dec 25 15:25:15 2017
 
-@author: Administrator
+@author: bladerunner8249
 """
 import pymongo
 import time
@@ -52,7 +52,6 @@ if __name__ == "__main__":
     delaysec=30
     
     while True:
-    #for i in range(10):
         try:
             former1 = writeMongo(BTC,dbName,former1)
             time.sleep(delaysec)
