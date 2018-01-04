@@ -132,32 +132,3 @@ class MarketQuotes:
     def get_all_tickers(self):
         PATH = '/api/v3/ticker/bookTicker'
         return self._get(self.HOST + PATH, {})
-
-        
-    
-        
-    
-    
-        
-        
-    
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    
-    
-    
-    
-        
-    
-    
-        
-        
-        
-        
